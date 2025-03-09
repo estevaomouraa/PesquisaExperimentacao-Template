@@ -64,6 +64,58 @@ Nesta seção, deverão ser descritas outras abordagens identificadas na literat
 
 # Descrição do _dataset_ selecionado
 
+O dataset selecionado contém informações sobre preços de venda de casas no condado de King, nos Estados Unidos, abrangendo o período entre maio de 2014 e maio de 2015. Esse conjunto de dados é amplamente utilizado para análises de mercado imobiliário, estudos de predição de preços e modelagem estatística de propriedades residenciais.
+
+Link Dataset: https://www.kaggle.com/datasets/soylevbeytullah/house-prices-dataset
+
+Descrição dos Atributos
+
+O dataset possui as seguintes colunas, cada uma representando uma característica específica das casas:
+
+> - id: Identificação única para cada casa (numérico).
+
+> - date: Data em que a casa foi vendida (formato de data).
+
+> - price: Preço de venda da casa (variável alvo da predição, numérico).
+
+> - bedrooms: Número de quartos na casa (numérico).
+
+> - bathrooms: Número de banheiros na casa (numérico, pode incluir frações para indicar lavabos).
+
+> - sqft_living: Área total da casa em pés quadrados (numérico).
+
+> - sqft_lot: Área total do terreno em pés quadrados (numérico).
+
+> - floors: Número total de andares na casa (numérico, podendo incluir frações se houver mezaninos ou níveis intermediários).
+
+> - waterfront: Indica se a casa possui vista para a orla marítima (binário: 0 = não, 1 = sim).
+
+> - view: Número de vezes que a casa foi visualizada (numérico).
+
+> - condition: Avaliação geral da condição da casa (escala categórica de 1 a 5, sendo 1 a pior condição e 5 a melhor).
+
+> - grade: Classificação geral da casa com base no sistema de pontuação do Condado de King (escala de 1 a 13, sendo 1 muito baixo e 13 muito alto).
+
+> - sqft_above: Área construída acima do solo em pés quadrados (numérico).
+
+> - sqft_basement: Área do porão em pés quadrados (numérico).
+
+> - yr_built: Ano de construção da casa (numérico).
+
+> - yr_renovated: Ano da última reforma da casa (numérico; 0 indica que nunca foi reformada).
+
+> - zipcode: Código postal da localização da casa (categórico).
+
+> - lat: Coordenada de latitude da casa (numérico, geoespacial).
+
+> - long: Coordenada de longitude da casa (numérico, geoespacial).
+
+> - sqft_living15: Área da sala de estar medida em 2015, podendo indicar reformas recentes (numérico).
+
+> - sqft_lot15: Área total do lote medida em 2015, podendo indicar mudanças no terreno (numérico).
+
+Esse dataset fornece um conjunto rico de informações sobre propriedades residenciais vendidas no Condado de King, sendo útil para análises estatísticas, predição de preços e estudos sobre tendências do mercado imobiliário. As informações geoespaciais e estruturais das casas permitem a aplicação de diversos métodos de machine learning e estatística para extrair insights valiosos.
+
 Nesta seção, você deverá descrever detalhadamente o _dataset_ selecionado. Lembre-se de informar o link de acesso a ele, bem como, de descrever cada um dos seus atributos (a que se refere, tipo do atributo etc.), se existem atributos faltantes etc.
 
 # Canvas analítico
